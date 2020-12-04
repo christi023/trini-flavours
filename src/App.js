@@ -1,11 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// Components
+import Navbar from './Components/Navbar/Navbar';
+
+// styles
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>Trini Flavours</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" />
+        </Switch>
+      </Router>
+    </>
   );
 };
 
