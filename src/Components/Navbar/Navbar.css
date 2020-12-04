@@ -22,23 +22,27 @@
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .navbar-logo {
-  color: yellow !important;
+  color: green !important;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  white-space: nowrap;
+  margin-right: 12px;
 }
-
 .navbar-icon {
-  margin-right: 0.5rem;
-  color: yellow !important;
+  margin-right: 0.3rem;
+  color: red !important;
+  font-size: 1.3em;
 }
 
 .nav-menu {
@@ -48,6 +52,9 @@
   list-style: none;
   text-align: center;
   justify-content: flex-end;
+  position: relative;
+  white-space: nowrap;
+  padding-left: 22px;
 }
 
 .nav-item {
@@ -66,6 +73,8 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16.5px;
 }
 
 .nav-links:hover {
@@ -84,23 +93,23 @@
   color: #fff;
   border: 2px solid #cda45e;
   border-radius: 50px;
-  margin: 20px 0 0 0;
-  padding: 10px 25px;
+  padding: 8px 25px;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
   transition: 0.3s;
-  display: inline-block;
 }
+
 .book-a-table a:hover {
   background: #cda45e;
   color: #fff;
 }
 
+/* Browser window 960px or smaller */
 @media screen and (max-width: 960px) {
-  .NavbarItems {
-    position: relative;
+  .navbar {
+    background: #1c2237;
   }
 
   .nav-menu {
@@ -109,11 +118,11 @@
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 80px;
+    top: 70px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
-    padding: 10px 0;
+    padding: 18px 0;
   }
 
   .nav-menu.active {
@@ -122,11 +131,12 @@
     opacity: 1;
     transition: all 0.6s ease;
     z-index: 1;
+    padding-bottom: 3em;
   }
 
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -151,14 +161,18 @@
     left: 0;
     transform: translate(25%, 50%);
   }
-
+  .navbar-icon {
+    margin-right: 0.5rem;
+    color: red !important;
+    font-size: 1.1em;
+  }
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
+    top: 4px;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 1.3em;
     cursor: pointer;
   }
 
@@ -171,7 +185,7 @@
     color: #fff;
     border: 2px solid #cda45e;
     border-radius: 50px;
-    margin: 20px 0 0 0;
+    margin: 4px 0 0 0;
     padding: 10px 25px;
     text-transform: uppercase;
     font-size: 13px;

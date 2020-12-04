@@ -20,13 +20,13 @@ export default function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className="navbar">
-          <div className="navbar-container container">
+          <div className="navbar-container container ">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <MdRestaurant className="navbar-icon" />
               Trini Flavours
             </Link>
 
-            <div className="menu-icon" onClick={handleClick}>
+            <div className="menu-icon " onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
@@ -51,11 +51,6 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/events" className="nav-links" onClick={closeMobileMenu}>
-                  Events
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link to="/gallery" className="nav-links" onClick={closeMobileMenu}>
                   Gallery
                 </Link>
@@ -71,7 +66,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="book-a-table text-center">
-                <Link to="#book-a-table" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="/book-a-table" className="nav-links" onClick={closeMobileMenu}>
                   Book a table
                 </Link>
               </li>
