@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 // styles
 import './Hero.css';
 
-// method
-const handleClick = () => {};
-
 const Hero = () => {
+  // method
+  const handleClick = () => console.log('Clicked!');
+
   return (
     <>
       <section id="hero" className="d-flex align-items-center">
@@ -19,11 +19,11 @@ const Hero = () => {
               <h2>Delivering great food and services</h2>
 
               <div className="btns">
-                <Link to="/menu" className="btn-menu " onClick={handleClick}>
+                <Link to="/menu" className=" btn-menu" type="button" onClick={handleClick}>
                   Our Menu
                 </Link>
 
-                <Link to="/book-a-table" className="btn-book animated fadeInUp scrollto">
+                <Link to="/book-a-table" className="btn-book " type="button" onClick={handleClick}>
                   Book a Table
                 </Link>
               </div>
