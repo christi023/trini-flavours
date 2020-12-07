@@ -19,7 +19,7 @@ const About = () => {
                 Trini Flavours approach is light-hearted – but the Trini Flavours commitment is
                 heavy.
               </h3>
-              <p class="font-italic">
+              <p className="font-italic">
                 Trini Flavours promise is to serve every diner the best food, made with the best
                 ingredients, by excellent chefs, complemented by the ideal wine or perfect beverage.
               </p>
