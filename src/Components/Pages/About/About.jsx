@@ -1,4 +1,5 @@
 import React from 'react';
+import about from '../../../assets/about.jpg';
 // style
 import './About.css';
 
@@ -10,7 +11,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="about-img">
-                <img src="/" alt="" />
+                <img src={about} alt="" />
               </div>
             </div>
 
