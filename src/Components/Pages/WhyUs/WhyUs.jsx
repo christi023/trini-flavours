@@ -31,7 +31,7 @@ const WhyUs = () => {
             </div>
             <br />
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div className="col-lg-4 col-md-6 ">
               <div className="box">
                 <span>
                   <i className="fas fa-thumbs-up"></i>
