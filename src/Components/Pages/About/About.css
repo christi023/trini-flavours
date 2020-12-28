@@ -18,6 +18,18 @@
   right: 0;
 }
 
+.container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  display: block;
+}
+
 .about .about-img {
   position: relative;
   transition: 0.5s;
@@ -94,8 +106,45 @@
   margin-bottom: 0;
 }
 
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/*--------------------- Media  ------------------- */
+/*@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}*/
 @media (min-width: 1024px) {
   .about {
     background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .order-lg-1 {
+    order: 1;
+  }
+  /*
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }*/
+  @media (max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
   }
 }
