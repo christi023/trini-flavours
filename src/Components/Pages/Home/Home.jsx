@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from '../../Hero/Hero';
 import About from '../../Pages/About/About';
 import WhyUs from '../../Pages/WhyUs/WhyUs';
+import Menu from '../../Pages/Menu/Menu';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <About />
       <WhyUs />
+      <Menu />
     </>
   );
 };
