@@ -4,6 +4,7 @@ import Hero from '../../Hero/Hero';
 import About from '../../Pages/About/About';
 import WhyUs from '../../Pages/WhyUs/WhyUs';
 import Menu from '../../Pages/Menu/Menu';
+import Specials from '../../Pages/Specials/Specials';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <WhyUs />
       <Menu />
+      <Specials />
     </>
   );
 };
