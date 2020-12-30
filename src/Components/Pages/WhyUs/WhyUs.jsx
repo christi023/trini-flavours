@@ -21,7 +21,7 @@ const WhyUs = () => {
                 <span>
                   <i className="fas fa-handshake"></i>
                 </span>
-                <h4 className="text-dark">SUPERIOR VALUE </h4>
+                <h4>SUPERIOR VALUE </h4>
                 <p>
                   If you are looking for value for money, Trini Flavours delivers. You will receive
                   a fresh 100% home made dish in a portion size that won’t leave you scrapping your
@@ -29,9 +29,8 @@ const WhyUs = () => {
                 </p>
               </div>
             </div>
-            <br />
 
-            <div className="col-lg-4 col-md-6 ">
+            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div className="box">
                 <span>
                   <i className="fas fa-thumbs-up"></i>
@@ -43,9 +42,8 @@ const WhyUs = () => {
                 </p>
               </div>
             </div>
-            <br />
 
-            <div className="col-lg-4 mt-4 mt-lg-0">
+            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
               <div className="box">
                 <span>
                   <i className="fas fa-book-open"></i>
@@ -57,12 +55,11 @@ const WhyUs = () => {
                 </p>
               </div>
             </div>
-            <br />
 
-            <div className="col-lg-4 mt-4 mt-lg-0">
+            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div className="box">
                 <span>
-                  <i className="fas fa-star "></i>
+                  <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
@@ -75,9 +72,18 @@ const WhyUs = () => {
                 </p>
               </div>
             </div>
-            <br />
 
-            <div className="col-lg-4 mt-4 mt-lg-0">
+            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+              <div className="box">
+                <span>
+                  <i className="fas fa-photo-video"></i>
+                </span>
+                <h4>AMAZING PHOTOS</h4>
+                <p>Photography on the spot with a great ambience for that enticing atmosphere</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div className="box">
                 <span>
                   <i className="fas fa-door-open"></i>
