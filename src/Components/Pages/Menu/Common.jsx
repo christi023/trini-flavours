@@ -18,9 +18,9 @@ const Common = (props) => {
               <li data-filter="*" className="filter-active">
                 All
               </li>
-              <li data-filter=".filter-starters">Starters</li>
-              <li data-filter=".filter-salads">Salads</li>
-              <li data-filter=".filter-specialty">Specialty</li>
+              <li>Starters</li>
+              <li>Salads</li>
+              <li>Specialty</li>
             </ul>
           </div>
         </div>
