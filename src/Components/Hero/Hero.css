@@ -2,32 +2,18 @@
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  /*font-family: 'PT Sans', sans-serif;*/
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Playfair Display', serif;
-}
 
 #hero {
   width: 100%;
-  height: 95vh;
-  background: url('/src/assets/hero-bg.jpeg');
+  height: 100vh;
+  background: url('/src/assets/hero-bg1.jpeg');
   background-size: cover;
   position: relative;
   padding: 0;
 }
 
 #hero:before {
+  content: '';
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
@@ -37,13 +23,8 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 310px;
-}
-
-@media (max-width: 992px) {
-  #hero .container {
-    padding-top: 98px;
-  }
+  /*padding-top: 310px;*/
+  padding-top: 110px;
 }
 
 #hero h1 {
@@ -56,13 +37,14 @@ h6 {
 }
 
 #hero h1 span {
-  color: green;
+  color: rgb(8, 165, 8);
 }
 
 #hero h2 {
   color: #fff;
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
+  font-weight: 800;
 }
 
 #hero .btns {
@@ -81,13 +63,13 @@ h6 {
   transition: 0.3s;
   line-height: 1;
   color: white;
-  border: 3px solid #000;
+  border: 2px solid red;
   text-decoration: none;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #cda45e;
+  background: red;
   color: #fff;
 }
 
@@ -103,8 +85,6 @@ h6 {
   display: block;
   position: relative;
   overflow: hidden;
-  margin-top: -70px;
-  margin-left: 40em;
 }
 
 #hero .play-btn::after {
@@ -171,58 +151,129 @@ h6 {
 /*-----------Media Queries--------------------*/
 @media (min-width: 1024px) {
   #hero {
-    background-position: center;
+    /* background-position: center; */
+    background-attachment: fixed;
   }
 }
 
 @media (max-width: 992px) {
-  .row {
-    margin-left: 50px;
-  }
-  #hero h1 {
-    margin-top: 4em;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 56px;
-    color: red;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  #hero h1 span {
-    color: green;
-  }
-
-  #hero h2 {
-    color: #fff;
-    margin-bottom: 10px 0 0 0;
-    font-size: 22px;
-  }
-
   #hero .play-btn {
-    margin-top: -70px;
-    margin-left: 30em;
+    margin-top: 30px;
   }
-  #hero .btns {
-    margin-top: 70px;
+  #hero .container {
+    padding-top: 98px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: auto;
+    width: 100%;
+  }
+  #hero .container {
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+  #hero .play-btn {
+    margin-top: 30px;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero .play-btn {
+    margin-top: 30px;
+    margin-left: 5rem;
   }
 
-  #hero .btn-menu,
   #hero .btn-book {
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #fff;
-    border: 3px solid rgb(14, 11, 11);
-    text-decoration: none;
-    position: relative;
-    margin-top: 4em;
+    margin-left: 2px;
+    margin-top: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
   }
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+/*@media (max-width: 992px) {
+  .row {
+    margin-left: 50px; 
+  }*/
+/*
+#hero h1 {
+  margin-top: 4em;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+#hero h1 span {
+  color: green;
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero .play-btn {
+  margin-top: -70px;
+  margin-left: 30em;
+}
+#hero .btns {
+  margin-top: 70px;
+}
+
+#hero .btn-menu,
+#hero .btn-book {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #fff;
+  border: 3px solid rgb(14, 11, 11);
+  text-decoration: none;
+  position: relative;
+  margin-top: 4em;
 }
 
 @media (max-height: 500px) {
@@ -320,7 +371,7 @@ h6 {
     opacity: 0;
   }
 }
-
+*/
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
