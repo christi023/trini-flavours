@@ -22,8 +22,8 @@
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .navbar-logo {
@@ -37,8 +37,16 @@
   font-family: 'Open Sans', sans-serif;
   position: relative;
   white-space: nowrap;
-  margin-right: 12px;
+  /*margin-right: 12px;*/
+  margin-right: -20em;
+  margin-left: -8rem;
+  padding-bottom: 16px;
 }
+
+.navbar-logo:hover {
+  text-decoration: none;
+}
+
 .navbar-icon {
   margin-right: 0.3rem;
   color: red !important;
@@ -55,6 +63,8 @@
   position: relative;
   white-space: nowrap;
   padding-left: 22px;
+  text-decoration: none;
+  margin-right: -5em;
 }
 
 .nav-item {
@@ -79,6 +89,7 @@
 
 .nav-links:hover {
   color: yellow !important;
+  text-decoration: none;
 }
 
 .fa-bars {
@@ -197,5 +208,36 @@
   .book-a-table a:hover {
     background: #cda45e;
     color: #fff;
+  }
+}
+@media screen and (max-width: 560px) {
+  .navbar {
+    background: #1c2237;
+  }
+  .navbar-logo {
+    color: green !important;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    /*white-space: nowrap;*/
+    /* padding-bottom: -7em;*/
+    margin-right: -20em;
+    margin-left: -6rem;
+    margin-bottom: 17rem;
+  }
+
+  .navbar-logo:hover {
+    text-decoration: none;
+  }
+
+  .navbar-icon {
+    margin-right: 0.3rem;
+    color: red !important;
+    font-size: 1.3em;
   }
 }
