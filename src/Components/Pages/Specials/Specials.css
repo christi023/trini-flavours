@@ -1,12 +1,16 @@
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
+.section-title p {
+  margin-left: 7rem !important;
+  color: #cda45e !important;
+}
 .specials {
-  overflow: hidden !important;
+  overflow: hidden;
 }
 
 .specials .nav-tabs {
-  border: 0 !important;
+  border: 0;
 }
 
 .specials .nav-link {
@@ -64,5 +68,87 @@
   .specials .nav-link {
     border: 0;
     padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .specials .nav-link {
+    border: 0 !important;
+    padding: 12px 15px !important;
+    transition: 0.3s !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    border-right: 2px solid #cda45e !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+  }
+
+  .img-fluid {
+    border-radius: 66px;
+    width: 180px;
+    margin-left: 14em;
+  }
+  .section-title p {
+    margin-left: 6rem !important;
+    color: #cda45e !important;
+  }
+  .specials h3 {
+    font-size: 37px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    padding-left: 3rem;
+    color: green;
+  }
+
+  .specials p {
+    color: #aaaaaa;
+    margin-left: 1em;
+    font-size: 20px;
+  }
+
+  .font-italic {
+    color: #ff0000 !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .specials .nav-link {
+    border: 0 !important;
+    padding: 12px 15px !important;
+    transition: 0.3s !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    border-right: 2px solid #cda45e !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    text-decoration: none !important;
+  }
+  .img-fluid {
+    border-radius: 66px;
+    width: 180px;
+    margin-left: 5em;
+  }
+  .section-title p {
+    margin-left: 2rem !important;
+    color: #cda45e !important;
+  }
+  .specials h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 3rem;
+    color: green;
+  }
+
+  .specials p {
+    color: #aaaaaa;
+    margin-left: 1em;
+    font-size: 18px;
+  }
+
+  .font-italic {
+    color: #ff0000 !important;
   }
 }

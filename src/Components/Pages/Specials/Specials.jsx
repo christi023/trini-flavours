@@ -12,11 +12,11 @@ const Specials = () => {
   return (
     <>
       <section id="specials" className="specials">
+        <div className="section-title">
+          <h2>Specials</h2>
+          <p>Check Our Specials</p>
+        </div>
         <Tab.Container defaultActiveKey="first">
-          <div className="section-title">
-            <h2>Specials</h2>
-            <p>Check Our Specials</p>
-          </div>
           <Row>
             <Col lg={3}>
               <Nav variant="pills" className="nav nav-tabs flex-column">
