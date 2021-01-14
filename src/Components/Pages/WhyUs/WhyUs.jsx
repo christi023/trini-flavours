@@ -9,7 +9,7 @@ const WhyUs = () => {
       <section id="why-us" className="why-us">
         <div className="container">
           <div className="section-title">
-            <h2>Why Us</h2>
+            <h2 style={{ fontSize: '2.5em' }}>Why Us</h2>
             <br />
             <p>Why Choose Trini Flavours</p>
           </div>
