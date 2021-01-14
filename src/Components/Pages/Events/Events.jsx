@@ -13,7 +13,7 @@ const Events = () => {
     <section id="events" className="events">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>Events</h2>
+          <h2 style={{ fontSize: '2.5em' }}>Events</h2>
           <p>Organize Your Events at Trini Flavours</p>
         </div>
 
