@@ -40,7 +40,7 @@ export default function Bookings() {
       <section id="book-a-table" className="book-a-table">
         <div className="container">
           <div className="section-title">
-            <h2>Reservation</h2>
+            <h2 style={{ fontSize: '2.5em', marginLeft: '-1.0em' }}>Reservations</h2>
             <p>Book a Table</p>
           </div>
 
