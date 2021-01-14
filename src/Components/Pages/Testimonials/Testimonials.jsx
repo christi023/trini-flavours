@@ -12,8 +12,8 @@ const Testimonials = () => {
     <>
       <section id="testimonials" className="testimonials section-bg">
         <div className="container">
-          <div class="section-title">
-            <h2>Testimonials</h2>
+          <div className="section-title">
+            <h2 style={{ fontSize: '2.5em', marginLeft: '-1.0em' }}>Testimonials</h2>
             <p>What they're saying about us</p>
           </div>
           <Carousel className="testimonials-carousel">
