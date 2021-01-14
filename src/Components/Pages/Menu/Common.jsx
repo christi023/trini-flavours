@@ -8,7 +8,7 @@ const Common = (props) => {
     <section id="menu" className="menu section-bg">
       <div className="container">
         <div className="section-title">
-          <h2>Menu</h2>
+          <h2 style={{ fontSize: '2.5em' }}>Menu</h2>
           <p>Our Tasty Menu</p>
         </div>
 
