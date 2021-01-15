@@ -11,10 +11,8 @@ const Card = (props) => {
         <i className="fas fa-quote-right"></i>
       </p>
       <img src={props.imgSrc} className="testimonial-img" alt="" />
-      <br />
-      {props.h3}
-      <br />
-      {props.h4}
+      <h3>{props.h3}</h3>
+      <h4>{props.h4}</h4>
       <br />
     </>
   );
