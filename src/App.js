@@ -6,7 +6,8 @@ import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
 import Menu from './Components/Pages/Menu/Menu';
 import Specials from './Components/Pages/Specials/Specials';
-//import Gallery from './Components/Pages/Gallery/Gallery';
+import Gallery from './Components/Pages/Gallery/Gallery';
+import Chefs from './Components/Pages/Chefs/Chefs';
 
 // styles
 import './App.css';
@@ -21,6 +22,8 @@ const App = () => {
           <Route exact path="/about" component={About} />
           <Route exact path="/menu" component={Menu} />
           <Route exact path="/specials" component={Specials} />
+          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/chefs" component={Chefs} />
         </Switch>
       </Router>
     </>
