@@ -8,8 +8,8 @@ import Specials from '../../Pages/Specials/Specials';
 import Events from '../../Pages/Events/Events';
 import Bookings from '../../Pages/Bookings/Bookings';
 import Testimonials from '../../Pages/Testimonials/Testimonials';
-
-//import Gallery from '../../Pages/Gallery/Gallery';
+import Gallery from '../../Pages/Gallery/Gallery';
+import Chefs from '../../Pages/Chefs/Chefs';
 
 const Home = () => {
   return (
@@ -22,6 +22,8 @@ const Home = () => {
       <Events />
       <Bookings />
       <Testimonials />
+      <Gallery />
+      <Chefs />
     </>
   );
 };
