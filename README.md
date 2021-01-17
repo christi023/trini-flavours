@@ -6,8 +6,6 @@
 
 ## React-Bootstrap
 
-## React-Hooks-Form
-
 ## React Icons & Font Awesome
 
-## Viewable link for website : 
+## Viewable link for website : https://trini-flavours.netlify.app
