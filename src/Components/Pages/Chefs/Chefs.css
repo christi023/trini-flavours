@@ -36,7 +36,7 @@
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #fff;
+  color: #cda45e;
 }
 
 .chefs .member .member-info-content span {
@@ -61,10 +61,11 @@
   color: #fff;
   margin: 0 10px;
   display: inline-block;
+  color: green;
 }
 
 .chefs .member .social a:hover {
-  color: #ff0000;
+  color: lightgreen;
 }
 
 .chefs .member .social i {
