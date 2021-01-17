@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col } from 'react-bootstrap';
 
 // style
 import './WhyUs.css';
@@ -15,22 +16,22 @@ const WhyUs = () => {
           </div>
           <br />
 
-          <div className="row">
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <Row>
+            <Col lg={4} md={6} className="d-flex align-items-stretch">
               <div className="box">
                 <span>
                   <i className="fas fa-handshake"></i>
                 </span>
-                <h4>SUPERIOR VALUE </h4>
+                <h4>SUPERIOR VALUE</h4>
                 <p>
                   If you are looking for value for money, Trini Flavours delivers. You will receive
                   a fresh 100% home made dish in a portion size that won’t leave you scrapping your
                   plate.
                 </p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <Col lg={4} md={6} className="d-flex align-items-stretch mt-4 mt-md-0">
               <div className="box">
                 <span>
                   <i className="fas fa-thumbs-up"></i>
@@ -41,9 +42,9 @@ const WhyUs = () => {
                   used, the quality and the freshness of the dish. You will taste the difference.
                 </p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <Col lg={4} md={6} className="d-flex align-items-stretch mt-4 mt-lg-0">
               <div className="box">
                 <span>
                   <i className="fas fa-book-open"></i>
@@ -54,9 +55,9 @@ const WhyUs = () => {
                   match food combinations without a hassle. No one has to fight over the last roti!
                 </p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <Col lg={4} md={6} className="d-flex align-items-stretch mt-4">
               <div className="box">
                 <span>
                   <i className="fas fa-star"></i>
@@ -71,9 +72,9 @@ const WhyUs = () => {
                   week.
                 </p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <Col lg={4} md={6} className="d-flex align-items-stretch mt-4">
               <div className="box">
                 <span>
                   <i className="fas fa-photo-video"></i>
@@ -81,9 +82,9 @@ const WhyUs = () => {
                 <h4>AMAZING PHOTOS</h4>
                 <p>Photography on the spot with a great ambience for that enticing atmosphere</p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <Col lg={4} md={6} className="d-flex align-items-stretch mt-4">
               <div className="box">
                 <span>
                   <i className="fas fa-door-open"></i>
@@ -94,8 +95,8 @@ const WhyUs = () => {
                   week.
                 </p>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
       </section>
     </>
