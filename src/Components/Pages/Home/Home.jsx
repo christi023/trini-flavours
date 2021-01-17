@@ -10,6 +10,8 @@ import Bookings from '../../Pages/Bookings/Bookings';
 import Testimonials from '../../Pages/Testimonials/Testimonials';
 import Gallery from '../../Pages/Gallery/Gallery';
 import Chefs from '../../Pages/Chefs/Chefs';
+import Contact from '../../Pages/Contact/Contact';
+import Footer from '../../Pages/Footer/Footer';
 
 const Home = () => {
   return (
@@ -24,6 +26,8 @@ const Home = () => {
       <Testimonials />
       <Gallery />
       <Chefs />
+      <Contact />
+      <Footer />
     </>
   );
 };
