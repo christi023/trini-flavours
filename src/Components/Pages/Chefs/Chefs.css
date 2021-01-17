@@ -22,6 +22,7 @@
   left: 0;
   right: 0;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .chefs .member .member-info-content {
@@ -92,4 +93,5 @@
 .chefs .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
+  cursor: pointer;
 }

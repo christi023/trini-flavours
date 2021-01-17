@@ -37,7 +37,6 @@
   font-family: 'Open Sans', sans-serif;
   position: relative;
   white-space: nowrap;
-  /*margin-right: 12px;*/
   margin-right: -20em;
   margin-left: -8rem;
   padding-bottom: 16px;
@@ -88,7 +87,7 @@
 }
 
 .nav-links:hover {
-  color: yellow !important;
+  color: #cda45e !important;
   text-decoration: none;
 }
 
@@ -113,7 +112,7 @@
 }
 
 .book-a-table a:hover {
-  background: #cda45e;
+  background: #553f19;
   color: #fff;
 }
 
@@ -194,7 +193,7 @@
 
   .book-a-table a {
     color: #fff;
-    border: 2px solid #cda45e;
+    border: 2px solid green;
     border-radius: 50px;
     margin: 4px 0 0 0;
     padding: 10px 25px;
@@ -206,14 +205,16 @@
     display: inline-block;
   }
   .book-a-table a:hover {
-    background: #cda45e;
+    background: #54b454;
     color: #fff;
   }
 }
 @media screen and (max-width: 560px) {
   .navbar {
     background: #1c2237;
+    margin-bottom: 4em;
   }
+
   .navbar-logo {
     color: green !important;
     justify-self: start;
@@ -223,12 +224,10 @@
     display: flex;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    position: relative;
-    /*white-space: nowrap;*/
-    /* padding-bottom: -7em;*/
+
     margin-right: -20em;
-    margin-left: -6rem;
-    margin-bottom: 17rem;
+    margin-left: 0.1em;
+    margin-bottom: 18rem;
   }
 
   .navbar-logo:hover {

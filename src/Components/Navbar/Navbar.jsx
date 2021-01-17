@@ -29,6 +29,7 @@ export default function Navbar() {
             <div className="menu-icon " onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
+            <br />
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
